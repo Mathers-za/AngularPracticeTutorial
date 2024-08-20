@@ -57,6 +57,10 @@
   color: #777;
 }
 
+a {
+  font-weight: bold;
+}
+
 .product .price {
   display: flex;
   flex-direction: column;
@@ -72,4 +76,9 @@
 .product .price button {
   padding: 10px;
   width: 100px;
+}
+
+.discount {
+  margin-top: -15px;
+  color: palevioletred;
 }
