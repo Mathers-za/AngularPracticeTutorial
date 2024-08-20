@@ -18,7 +18,7 @@ export class CatalogComponent {
   products: IProductModel[] = products;
   filter = '';
 
-  constructor(private cartService: Cart_Service, private api: HttpClient) {}
+  constructor(private cartService: Cart_Service, http: HttpClient) {}
   getFilteredProducts(): IProductModel[] {
     return this.filter === ''
       ? this.products
